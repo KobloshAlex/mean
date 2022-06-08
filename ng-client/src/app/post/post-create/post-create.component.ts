@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Output } from "@angular/core";
 import { Post } from "../post.model";
 import { NgForm } from "@angular/forms";
+import { PostService } from "../post.service";
 
 @Component({
   selector: "app-post-create",
@@ -10,6 +11,8 @@ import { NgForm } from "@angular/forms";
 export class PostCreateComponent {
   @Output() postCreatedEvent = new EventEmitter<Post>();
 
+  constructor(private postService: PostService) {}
+
   onClick(form: NgForm) {
     if (!form.valid) return;
 
@@ -17,6 +20,8 @@ export class PostCreateComponent {
       title: form.value.title,
       content: form.value.content,
     };
-    this.postCreatedEvent.emit(post);
+
+    this.postService.addPost(post);
+    form.resetForm();
   }
 }

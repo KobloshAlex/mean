@@ -8,9 +8,4 @@ import { Post } from "./post/post.model";
 })
 export class AppComponent {
   title = "ng-client";
-
-  storedPosts: Post[] = [];
-  onPostAdded(post) {
-    this.storedPosts.push(post);
-  }
 }
