@@ -13,6 +13,7 @@ import { HeaderComponent } from "./header/header.component";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { PostListComponent } from "./post/post-list/post-list.component";
 import { MatExpansionModule } from "@angular/material/expansion";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [AppComponent, PostCreateComponent, HeaderComponent, PostListComponent],
@@ -25,7 +26,8 @@ import { MatExpansionModule } from "@angular/material/expansion";
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

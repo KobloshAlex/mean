@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d32295-5a5d-439a-b103-426c4f6e33ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="22d32295-5a5d-439a-b103-426c4f6e33ce" name="Changes" comment="progress">
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -79,8 +78,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654650326781</updated>
-      <workItem from="1654650328099" duration="1351000" />
+      <workItem from="1654650328099" duration="4100000" />
     </task>
+    <task id="LOCAL-00001" summary="progress">
+      <created>1654651915997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654651915997</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress" />
   </component>
 </project>
