@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d32295-5a5d-439a-b103-426c4f6e33ce" name="Changes" comment="progress">
-      <change afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ng-client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-create/post-create.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post-list/post-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ng-client/src/app/post/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ng-client/src/app/post/post.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654650326781</updated>
-      <workItem from="1654650328099" duration="8366000" />
+      <workItem from="1654650328099" duration="12918000" />
     </task>
     <task id="LOCAL-00001" summary="progress">
       <created>1654651915997</created>

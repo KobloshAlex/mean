@@ -55,4 +55,36 @@ app.delete("/api/posts/:id", async (req, res) => {
   });
 });
 
+app.put("/api/posts/:id", (req, res) => {
+  console.log(req.body);
+
+  const post = new Post({
+    _id: req.body.id,
+    title: req.body.title,
+    content: req.body.content,
+  });
+  Post.updateOne({ _id: req.params.id }, post).then((result) => {
+    console.log(result);
+    res.status(200).json({
+      message: "SUCCESS",
+    });
+  });
+});
+
+app.get("/api/posts/:id", (req, res) => {
+  console.log(req.params.id)
+  Post.findById(req.params.id).then((post) => {
+    if (!post) {
+      res.status(404).json({
+        message: "post not exist",
+      });
+    }
+
+    console.log(post)
+    res.status(200).json({
+      post,
+    });
+  });
+});
+
 module.exports = app;
